@@ -1,0 +1,24 @@
+{
+  "name": "test-dazzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode none --devtool source-map",
+    "serve": "http-server -c-1 dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dazzle": "^1.4.0",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-plugin-react": "^7.11.1",
+    "http-server": "^0.11.1",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
